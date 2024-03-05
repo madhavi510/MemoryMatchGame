@@ -1,0 +1,33 @@
+.card-container{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
+  gap: 10px;
+  
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+button{
+  margin: 20px;
+  padding: 10px;
+  font-family: "roboto";
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color:#24a0ed ;
+  color: #fff;
+}
+.button2{
+  margin: 20px;
+  padding: 10px;
+  font-family: "roboto";
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color:#ff0021 ;
+  color: #fff;
+}
